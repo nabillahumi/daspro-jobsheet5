@@ -23,7 +23,7 @@ public class PemilihanHari18 {
             case "saturday" :
             case "sunday" :
                 dayType = "weekend" ;
-
+                break;
             default:
                 dayType = "invalid day name" ;     
         }
