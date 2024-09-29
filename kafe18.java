@@ -30,7 +30,7 @@ public class kafe18 {
             case "coklat":
                 harga = 20000;
                 break;
-            default:
+            //default:
                 System.out.println("Menu yang dipilih tidak tersedia.");
                 return;
         }
@@ -46,7 +46,7 @@ public class kafe18 {
             case 'L':
                 total += 0.4 * total;
                 break;
-            default:
+            //default:
                 System.out.println("Ukuran cup yang dipilih tidak tersedia.");
                 return;
         }
