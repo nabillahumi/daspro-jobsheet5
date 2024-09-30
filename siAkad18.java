@@ -9,9 +9,8 @@ public class siAkad18 {
         char kelas;
         byte absen;
         double nilaiKuis, nilaiTugas, nilaiUjian, nilaiUas, nilaiAkhir;
-
-
-        System.out.print("Masukkan nama: ");
+        
+        System.out.print("Masukkan Nama: ");
         nama = sc.nextLine();
         System.out.print("Masukkan NIM: ");
         nim = sc.nextLine();
