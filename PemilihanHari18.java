@@ -17,12 +17,12 @@ public class PemilihanHari18 {
             case "wednesday" :
             case "thursday" :
             case "friday" :
-                dayType = "weekday" ;
+                dayType = "weekday"; 
                 
                 break;
             case "saturday" :
             case "sunday" :
-                dayType = "weekend" ;
+                dayType = "weekend";
                 break;
             default:
                 dayType = "invalid day name" ;     

@@ -5,18 +5,30 @@
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
 
-            int angka;
+            int hari;
+            String dayType;
 
             System.out.print("Masukkan angka (1-7): ");
-            angka = sc.nextInt();
+            hari = sc.nextInt();
 
-            if (angka >= 1 && angka <= 5) {
-                System.out.println("Weekday");
-            } else if (angka == 6 || angka == 7) {
-                System.out.println("Weekend");
-            } else {
-                System.out.println("Invalid Number");
+            switch (hari) {
+                case 1 :
+                case 2 :
+                case 3 :
+                case 4 :
+                case 5 :
+                    dayType = "weekday";
+                    
+                    break;
+                case 6 :
+                case 7 :
+                    dayType = "weekend" ;
+                    break;
+                default:
+                    dayType = "invalid day name" ;     
             }
 
+            System.out.println(hari + " is a " + dayType);
+    
         }
     }
