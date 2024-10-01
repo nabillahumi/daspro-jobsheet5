@@ -8,7 +8,7 @@ public class siAkad18 {
         String nama, nim;
         char kelas;
         byte absen;
-        double nilaiKuis, nilaiTugas, nilaiUjian, nilaiUas, nilaiAkhir;
+        double nilaiKuis, nilaiTugas, nilaiUjian, nilaiAkhir;
         
         System.out.print("Masukkan Nama: ");
         nama = sc.nextLine();
@@ -24,10 +24,8 @@ public class siAkad18 {
         nilaiTugas = sc.nextDouble();
         System.out.print("Masukkan nilai ujian: ");
         nilaiUjian = sc.nextDouble();
-        System.out.print("Masukkan nilai Uas: ");
-        nilaiUas = sc.nextDouble();
 
-        nilaiAkhir = (nilaiKuis * 0.2 )+ (nilaiTugas *0.15) + (nilaiUjian * 0.3) + (nilaiUas * 0.35) ;
+        nilaiAkhir = (nilaiKuis + nilaiTugas + nilaiUjian) / 3  ;
 
         String nilaiHuruf = "";
         double nilaiSetara = 0;
